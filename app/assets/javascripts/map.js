@@ -37,5 +37,5 @@ function showMap(lat, lng) {
   });
 }
 $(document).ready(function(){
-  showMap(,);
+  showMap(57.165216, -2.102433);
 });
