@@ -13,12 +13,16 @@
  *= require_tree .
  */
 #map-canvas {
+  margin: 30px;
   width: 700px;
   height: 500px;
+  float:left;
 }
 
 #crime-chart {
-  width: 400px;
-  height: 400px;
-  margin: 56px;
+  width: 450px;
+  height: 500px;
+  background: blue;
+  float: right;
+  margin: 30px;
 }
