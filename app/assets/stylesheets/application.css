@@ -26,3 +26,20 @@
   float: right;
   margin: 30px;
 }
+
+#new-comment-box {
+	margin: 30px;
+}
+
+.comments {
+  float:right;
+}
+
+.remove {
+  margin: 5px;
+  color: red;
+  text-decoration: underline;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
