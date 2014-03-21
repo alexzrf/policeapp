@@ -1,6 +1,6 @@
 CrimeMap::Application.routes.draw do
 
-  resources :comments, :only => [:create]
+  resources :comments, :only => [:create, :destroy]
   devise_for :users
 
   get "comments/create"

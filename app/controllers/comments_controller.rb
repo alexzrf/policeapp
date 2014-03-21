@@ -14,6 +14,13 @@ class CommentsController < ApplicationController
       render :js => 'alert("Comment must be at least 1 character")', :status => :forbidden
     end
   end
+  def destroy
+      @comment = Comment.find(params[:id])
+    if @comment.present?
+      @comment.destroy
+    end
+    redirect_to root_url
+end 
 
   private
   def comment_params

@@ -1,1 +1,1 @@
-<li class="comment"><%= comment.content %><span class="remove">remove</span></li>
+<li class="comment"><%= comment.content %><span class="remove"><%= link_to 'Destroy', comment_path( comment), :method => :delete %></span></li>
