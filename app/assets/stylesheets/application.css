@@ -22,7 +22,7 @@
 #crime-chart {
   width: 450px;
   height: 500px;
-  background: blue;
+  background: grey;
   float: right;
   margin: 30px;
 }
@@ -41,5 +41,10 @@
   text-decoration: underline;
   font-size: 0.9em;
   cursor: pointer;
+}
+
+body {
+  background: url(http://myturriff.co.uk/wp-content/uploads/2013/07/police-scotland-logo.jpg);
+  font-family: arial;
 }
 
