@@ -1,4 +1,9 @@
-<h1>Rails app using open data</h1>
+<center><h1>Rails app using open data</h1><center>
+
+<h3><%= link_to "Sign up", new_user_registration_path, :class => "btn"%>
+</br>
+<%= link_to "Login", user_session_path, :class => "btn"%>
+<div></div></h3>
 
 <div id="map-canvas"></div>
 
@@ -14,3 +19,4 @@
     <%= f.submit %>
   <% end %>
 </div>
+

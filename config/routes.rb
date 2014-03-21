@@ -1,6 +1,7 @@
 CrimeMap::Application.routes.draw do
 
   resources :comments, :only => [:create]
+  devise_for :users
 
   get "comments/create"
   get "crimes/stats"

@@ -48,3 +48,5 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'mocha'
 end
+
+gem 'devise', '~> 3.0.0.rc'
